@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var User = require('../model/user');
+var User = require('../models/user');
 
 // Get route for reading data
 router.get('/', function (req, res, next) {
